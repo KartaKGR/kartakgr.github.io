@@ -80,7 +80,6 @@
 }
 a
 {
-   outline: none;
    color: #0000FF;
    text-decoration: underline;
 }
@@ -115,6 +114,26 @@ a.style1:active
 a.style1:hover
 {
    color: #696969;
+   text-decoration: none;
+}
+a.style2
+{
+   color: #BFD1DC;
+   text-decoration: none;
+}
+a.style2:visited
+{
+   color: #BFD1DC;
+   text-decoration: none;
+}
+a.style2:active
+{
+   color: #BFD1DC;
+   text-decoration: none;
+}
+a.style2:hover
+{
+   color: #B1C7D5;
    text-decoration: none;
 }
 h1
