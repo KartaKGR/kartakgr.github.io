@@ -1862,6 +1862,14 @@ $(document).ready(function()
    });
    $("a[data-rel='PhotoGallery100']").attr('rel', 'PhotoGallery100');
    $("a[rel^='PhotoGallery100']").fancybox({});
+   $("a[data-rel='PhotoGallery101']").attr('rel', 'PhotoGallery101');
+   $("a[rel^='PhotoGallery101']").fancybox({});
+   $("#LayerPolitika").stickylayer({orientation: 4, position: [0, 0], delay: 300});
+   $("a[href*='#LayerInfoPolitika']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#LayerInfoPolitika').offset().top }, 600, 'linear');
+   });
 $(window).load(function() {
 
  $(".loader_inner").fadeOut();
