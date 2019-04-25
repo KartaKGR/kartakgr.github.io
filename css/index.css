@@ -28036,22 +28036,6 @@ body
    text-align: left;
    white-space: nowrap;
 }
-#wb_Heading1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px #FFFFFF solid;
-   padding: 0px 0px 0px 0px;
-}
-#Heading1
-{
-   color: #FFFFFF;
-   font-family: Tahoma;
-   font-weight: bold;
-   font-size: 32px;
-   margin: 0;
-   text-align: left;
-}
 #LayerMenuRodnikiSpisok
 {
    background-color: transparent;
@@ -29198,6 +29182,182 @@ body
 {
    text-align: left;
    white-space: nowrap;
+}
+#LayerPolitika
+{
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text226 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text226 div
+{
+   text-align: left;
+}
+#LayerInfoPolitika .modal-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px #CCCCCC solid;
+   border-radius: 6px;
+   -moz-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   -webkit-box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   box-shadow: 0px 3px 9px rgba(0,0,0,0.50);
+   overflow: visible;
+}
+#LayerInfoPolitika.fade
+{
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+#LayerInfoPolitika.fade.in
+{
+   opacity: 1;
+}
+#LayerInfoPolitika.modal
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1050;
+   display: none;
+   overflow: hidden;
+   -webkit-overflow-scrolling: touch;
+   outline: 0;
+}
+#LayerInfoPolitika .modal-open .modal
+{
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+#LayerInfoPolitika .modal-open
+{
+   overflow: hidden;
+}
+#LayerInfoPolitika .modal-dialog
+{
+   position: relative;
+   width: 852px;
+   margin: 30px auto;
+}
+#LayerInfoPolitika .modal-content
+{
+   position: relative;
+   -webkit-background-clip: padding-box;
+   background-clip: padding-box;
+   outline: 0;
+}
+#LayerInfoPolitika .modal-header
+{
+   min-height: 16px;
+   padding: 15px;
+   border-bottom: 1px solid #CCCCCC;
+}
+#LayerInfoPolitika .modal-title
+{
+   color: #CCCCCC;
+   font-size: 18px;
+   font-weight: 500;
+   margin: 0;
+}
+#LayerInfoPolitika .modal-body
+{
+   position: relative;
+   width: 852px;
+   height: 537px;
+}
+#LayerInfoPolitika .close
+{
+   float: right;
+   font-size: 21px;
+   font-weight: 700;
+   line-height: 1;
+   color: #CCCCCC;
+   text-shadow: 0px 1px 0px #fff;
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+   -webkit-appearance: none;
+   padding: 15px 15px 0px 0px;
+   cursor: pointer;
+   background: 0 0;
+   border: 0;
+   margin-top: -2px;
+}
+.modal-backdrop
+{
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   z-index: 1040;
+   background-color: #000;
+}
+.modal-backdrop.fade
+{
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transition: opacity .15s linear;
+   -o-transition: opacity .15s linear;
+   transition: opacity .15s linear;
+}
+.modal-backdrop.in
+{
+   filter: alpha(opacity=50);
+   opacity: 0.5;
+}
+.modal-open
+{
+   overflow: hidden;
+}
+#TextArea83
+{
+   border: 0px #CCCCCC solid;
+   background-color: transparent;
+   background-image: none;
+   color :#4F4F4F;
+   font-family: Tahoma;
+   font-weight: normal;
+   font-size: 19px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#TextArea83:focus
+{
+   border-color: #4F4F4F;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(79,79,79,0.60);
+   outline: 0;
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   padding: 0px 0px 0px 0px;
+}
+#Heading1
+{
+   color: #FFFFFF;
+   font-family: Tahoma;
+   font-weight: bold;
+   font-size: 32px;
+   margin: 0;
+   text-align: left;
 }
 .loader {
  background: none repeat scroll 0 0 #FFFFFF;
