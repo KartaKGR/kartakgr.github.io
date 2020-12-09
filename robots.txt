@@ -1,0 +1,3 @@
+User-agent: *
+Host: https://kartakgr.github.io
+Sitemap: https://kartakgr.github.io/sitemap.xml
