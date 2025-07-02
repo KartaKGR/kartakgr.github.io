@@ -9958,6 +9958,28 @@ user-select: none; ">
 </div>
 </div>
 </div>
+<div id="cookie_notification">
+<p>Сайт использует cookie-файлы и другие технологии, чтобы помочь вам в навигации, а также предоставить лучший пользовательский опыт.</p>
+<button class="button cookie_accept">Хорошо</button></div>
+<script>
+function checkCookies(){
+    let cookieDate = localStorage.getItem('cookieDate');
+    let cookieNotification = document.getElementById('cookie_notification');
+    let cookieBtn = cookieNotification.querySelector('.cookie_accept');
+
+    // Если записи про кукисы нет или она просрочена на 1 год, то показываем информацию про кукисы
+    if( !cookieDate || (+cookieDate + 31536000000) < Date.now() ){
+        cookieNotification.classList.add('show');
+    }
+
+    // При клике на кнопку, в локальное хранилище записывается текущая дата в системе UNIX
+    cookieBtn.addEventListener('click', function(){
+        localStorage.setItem( 'cookieDate', Date.now() );
+        cookieNotification.classList.remove('show');
+    })
+}
+checkCookies();
+</script>
 </div>
 <div id="wb_Heading1" style="position:absolute;left:0px;top:2179px;width:68px;height:69px;visibility:hidden;z-index:1549;">
 <h1 id="Heading1" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;">Краеведческая карта Глазовского района и города Глазова, ДондыДор</h1></div>
